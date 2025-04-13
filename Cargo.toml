@@ -1,9 +1,12 @@
 [package]
-name = "verified"
-version = "0.0.0"
+name = "unsafe-to-verified"
+version = "1.0.2"
 authors = ["lurkny <brody@larson.dev>"]
-description = "A `cargo generate` template for quick-starting a procedural macro crate"
-keywords = ["template", "proc_macro", "procmacro"]
+description = "Renames unsafe to verified (kinda)"
+license = "MIT"
+repository = "https://github.com/lurkny/verified"
+keywords = ["unsafe", "proc_macro", "procmacro"]
+categories = ["development-tools"]
 edition = "2024"
 
 [lib]
